@@ -9,10 +9,12 @@ export const App = () => {
       <header className="App-header">
         <h1>Kamalkant Pareek</h1>
         <h2>Full Stack Blockchain Developer</h2>
-        <p>
-          <a href="https://kamalkant-github-io.vercel.app/">3D Portfolio Website</a> |
-          <a href="https://github.com/HitmanBoi"> GitHub</a> | 
+        <p id="buttons">
+          <a href="https://github.com/HitmanBoi"> GitHub</a> 
           <a href="https://in.linkedin.com/in/hitman24">LinkedIn</a>
+          <a href="https://kamalkant-github-io.vercel.app/">3D Portfolio Website</a> 
+
+          
         </p>
       </header>
 
@@ -91,4 +93,3 @@ export const App = () => {
     </div>
   );
 }
-

@@ -10,13 +10,13 @@ body {
 }
 
 a {
-  color: #0056b3;
+  color: #ebeff3;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #003f7f;
+  color: #000000fb;
 }
 
 ul {
@@ -53,8 +53,12 @@ p, li {
   margin-bottom: 1.5rem;
 }
 
-.App-header p {
-  font-size: 1rem;
+#buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 50px;
+  width: 200;
 }
 
 .App-header a {
